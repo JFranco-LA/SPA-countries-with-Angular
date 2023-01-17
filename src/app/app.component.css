@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 11fr;
+
+
+    grid-template-areas:
+        "sidebar    header"
+        "sidebar    view";
+}
+
+app-side-bar {
+    grid-area: sidebar;
+}
+
+app-header {
+    grid-area: header;
+}
+
+main {
+    grid-area: view;
+}

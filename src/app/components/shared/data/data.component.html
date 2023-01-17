@@ -1,0 +1,15 @@
+<article>
+    <section class="pais-bander__container">
+        <p>Nombre del país: <span>{{data.name}}</span></p>
+        <img class="imagen-bandera" [src]="data.linkBander" [alt]="data.alt">
+    </section>
+    <section class="datos">
+        <h4>Datos generales:</h4>
+        <p>
+            {{data.comments.comment1}}
+        </p>
+        <p>
+            {{data.comments.comment2}}
+        </p>
+    </section>
+</article>

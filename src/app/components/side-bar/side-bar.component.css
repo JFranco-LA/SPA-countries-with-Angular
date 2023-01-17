@@ -1,0 +1,70 @@
+.sideBar-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    
+}
+
+.sideBar-container div{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+}
+
+nav h4{
+    text-align: center;
+    font-size: 1.55rem;
+    font-weight: lighter;
+    letter-spacing: .45rem;
+    margin: 0; 
+    padding-top: 1rem
+}
+
+nav h4::before{
+    color: #49494991;
+    content: 'Menu';
+    position: absolute;
+    margin-left: .125rem;
+ 
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+    padding: 3rem 0;
+}
+
+nav ul li{
+    font-size: 1.15rem;
+    transition: all .4s;
+}
+
+nav ul li:hover{
+    color: rgb(0, 0, 255);
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+
+
+
+footer p{
+    margin: 0;
+    font-style: italic;
+    font-size: .75rem;
+}
+
+
+

@@ -1,0 +1,44 @@
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 3rem;
+}
+
+.imagen-bandera{
+    height: 9rem;
+}
+
+.pais-bander__container p{
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.pais-bander__container, .datos{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 1rem;
+}
+
+.pais-bander__container p span{
+    font-weight: lighter;
+    padding: 0 .35rem;
+    letter-spacing: .15rem;
+    font-size: 1.35rem;
+}
+
+.datos{
+    padding-right: 4rem;
+}
+
+.datos h4{
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.datos p{
+    margin: 0;
+    text-align: justify;
+    letter-spacing: .05rem;
+}
